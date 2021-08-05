@@ -1,16 +1,17 @@
-### Hi there 👋
+```java
+public class FrontPage {
+  public static void main(String[] args) {
+    System.out.println("🔥 Hi welcome to my account 🔥");
+  }
+}
+```
+### Projects for storing valuable pices of code:
+- [📚 Collection of algorithms and data structures - Gift box -Ancheta](https://github.com/juanmanuelgg/ancheta)
+- [🌐 My notes](https://juanmanuelgg.github.io)
 
-<!--
-**juanmanuelgg/juanmanuelgg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Open source portfolio and showcase for interviews.
+- [📚 My interviews showcase](https://github.com/juanmanuelgg/entrevistas)
+- [🌐 My interviews showcase web](https://juanmanuelgg.herokuapp.com)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I’m looking to collaborate on open source. I know that i will need help too so if something big happens I have prepared a space for that: 
+- [💰 Bounties](https://issuehunt.io/u/juanmanuelgg/repositories)
