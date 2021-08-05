@@ -6,7 +6,7 @@ public class FrontPage {
 }
 ```
 ### Projects for storing valuable pices of code:
-- [📚 Collection of algorithms and data structures - Gift box -Ancheta](https://github.com/juanmanuelgg/ancheta)
+- [📚 Collection of algorithms and data structures](https://github.com/juanmanuelgg/ancheta)
 - [🌐 My notes](https://juanmanuelgg.github.io)
 
 ### Open source portfolio and showcase for interviews.
