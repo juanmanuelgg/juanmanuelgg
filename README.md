@@ -1,7 +1,10 @@
 ```java
 public class FrontPage {
   /*
-  The practice is: Write a failing test for each feature you plan to implement. Run the test and see it fail. Then implement the feature until the test succeeds. Refactor now and begin again.
+  The practice is: Write a failing test for each feature you plan to implement.
+  Run the test and see it fail.
+  Then implement the feature until the test succeeds.
+  Refactor now and begin again.
   */
   public static void main(String[] args) {
     System.out.println("🔥 Hi welcome to my account 🔥");
