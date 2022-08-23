@@ -11,7 +11,7 @@ public class FrontPage {
   }
 }
 ```
-### Projects for storing valuable pices of code:
+### Projects for storing valuable pieces of code:
 - [📚 Collection of algorithms and data structures](https://github.com/juanmanuelgg/ancheta)
 - [🌐 My notes](https://juanmanuelgg.github.io)
 
