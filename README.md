@@ -14,6 +14,31 @@ public class FrontPage {
 }
 ```
 
+## ¡Acio!
+
+```bash
+#!/bin/bash
+export ACCIO_FOLDER='~/accio-folder'
+export ACCIO_FILE='~/accio-file.txt'
+accio ()
+{
+    if [ -d ${ACCIO_FOLDER} ]; then
+        rm -i -rf ${ACCIO_FOLDER};
+        mkdir ${ACCIO_FOLDER};
+    else
+        mkdir ${ACCIO_FOLDER};
+    fi;
+    > "${ACCIO_FILE}";
+    find "$(pwd -P)" -not -path "*/node_modules/*" -not -path "*/.git/*" -not -path "*/dist/*" -not -path "*/build/*" -type f \
+    | grep --color -i "$@" \
+    | tee "${ACCIO_FILE}" \
+    | gawk -v folder=${ACCIO_FOLDER} '{print "cp --backup=t \x27"$0"\x27 "folder}' \
+    | sh
+}
+```
+
+##  Fork Bomb
+
 ```bash
 #!/bin/bash
 # Do not use. / No usar.
