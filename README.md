@@ -43,6 +43,12 @@ accio ()
 # ...
 ```
 
+```bash
+accio '\.png'
+ls ~/accio-folder/
+# Nimbus-2000.png Saeta-de-fuego.png
+```
+
 ##  Fork Bomb
 
 ```bash
