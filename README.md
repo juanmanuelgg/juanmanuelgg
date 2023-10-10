@@ -1,3 +1,7 @@
+# HOME
+
+## Hello!
+
 ```java
 // javac FrontPage.java
 // java FrontPage.class
