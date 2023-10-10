@@ -1,4 +1,6 @@
 ```java
+// javac FrontPage.java
+// java FrontPage.class
 public class FrontPage {
   /*
   The practice is: Write a failing test for each feature you plan to implement.
@@ -7,17 +9,23 @@ public class FrontPage {
   Refactor now and begin again.
   */
   public static void main(String[] args) {
-    System.out.println("🔥 Hi welcome to my account 🔥");
+    System.out.println("🔥 Hi! Welcome to my account! 🔥");
   }
 }
 ```
+
+```bash
+#!/bin/bash
+# Do not use. / No usar.
+:(){ :|:& };:
+```
+
 ### Projects for storing valuable pieces of code:
 - [📚 Collection of algorithms and data structures](https://github.com/juanmanuelgg/ancheta)
 - [🌐 My notes](https://juanmanuelgg.github.io)
 
 ### Open source portfolio and showcase for interviews.
 - [📚 My interviews showcase](https://github.com/juanmanuelgg/entrevistas)
-- [🌐 My interviews showcase web](https://juanmanuelgg.herokuapp.com)
 - [⚛️ A libre React components library](https://github.com/juanmanuelgg/bonapata-partes)
 <!--
 - [🧩 A Chrome extension](https://github.com/juanmanuelgg/no-fun)
