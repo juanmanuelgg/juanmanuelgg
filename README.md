@@ -17,7 +17,8 @@ public class FrontPage {
 ## ¡Acio!
 
 ```bash
-#!/bin/bash
+# ~/.bashrc
+# ...
 export ACCIO_FOLDER='~/accio-folder'
 export ACCIO_FILE='~/accio-file.txt'
 accio ()
@@ -35,6 +36,7 @@ accio ()
     | gawk -v folder=${ACCIO_FOLDER} '{print "cp --backup=t \x27"$0"\x27 "folder}' \
     | sh
 }
+# ...
 ```
 
 ##  Fork Bomb
