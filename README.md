@@ -18,7 +18,7 @@ public class FrontPage {
 }
 ```
 
-## ¡Accio! 🪄                                        ⬅️🧹💨
+## ¡Accio! 🪄🧹💨
 
 ```bash
 # ~/.bashrc
