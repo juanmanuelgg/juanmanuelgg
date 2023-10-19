@@ -4,7 +4,7 @@
 
 ```java
 // javac FrontPage.java
-// java FrontPage.class
+// java FrontPage
 public class FrontPage {
   /*
   The practice is: Write a failing test for each feature you plan to implement.
