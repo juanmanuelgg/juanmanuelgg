@@ -28,12 +28,12 @@ export ACCIO_FILE='~/accio-file.txt'
 accio ()
 {
     if [ -d ${ACCIO_FOLDER} ]; then
-        rm -i -rf ${ACCIO_FOLDER};
-        mkdir ${ACCIO_FOLDER};
+        rm -i -rf ${ACCIO_FOLDER}
+        mkdir ${ACCIO_FOLDER}
     else
-        mkdir ${ACCIO_FOLDER};
+        mkdir ${ACCIO_FOLDER}
     fi
-    > "${ACCIO_FILE}";
+    > "${ACCIO_FILE}"
     find "$(pwd -P)" -not -path "*/node_modules/*" -not -path "*/.git/*" -not -path "*/dist/*" -not -path "*/build/*" -type f \
     | grep --color -i "$@" \
     | tee "${ACCIO_FILE}" \
