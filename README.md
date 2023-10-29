@@ -32,7 +32,7 @@ accio ()
         mkdir ${ACCIO_FOLDER};
     else
         mkdir ${ACCIO_FOLDER};
-    fi;
+    fi
     > "${ACCIO_FILE}";
     find "$(pwd -P)" -not -path "*/node_modules/*" -not -path "*/.git/*" -not -path "*/dist/*" -not -path "*/build/*" -type f \
     | grep --color -i "$@" \
